@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "detonate-real": {
+      "type": "http",
+      "url": "https://detonate.me/api/mcp",
+      "timeout": 90000
+    },
+    "leadconnector": {
+      "type": "http",
+      "url": "https://services.leadconnectorhq.com/mcp/anthropic/v2",
+      "timeout": 90000
+    }
+  }
+}

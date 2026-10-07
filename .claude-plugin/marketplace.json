@@ -1,0 +1,14 @@
+{
+  "name": "detonate-claude",
+  "description": "The DETONATE connector for Claude Code, for Otherside admins.",
+  "owner": {
+    "name": "Kanyini"
+  },
+  "plugins": [
+    {
+      "name": "detonate",
+      "source": "./plugins/detonate",
+      "description": "Bring men into DETONATE from GoHighLevel or a CSV, check cohorts, and run the daily sweep. Invitations wait for Approve."
+    }
+  ]
+}
