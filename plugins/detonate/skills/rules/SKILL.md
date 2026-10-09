@@ -24,7 +24,7 @@ The DETONATE tools are `mcp__plugin_detonate_detonate-real__<tool>`; this page n
 
 ## Field map (GoHighLevel to DETONATE)
 
-Each DETONATE field comes from GoHighLevel as below (King's keys and corrections, 2026-10-07; VIP rule, Kanyini 2026-10-09). An intake from GoHighLevel, and the GHL check, read the **key**. GoHighLevel lists a contact's custom fields by id: first read the location's custom fields (read only) to find the id for each key, then read the contact's value by that id (how GoHighLevel's contact data works, not part of King's table). A CSV load matches the **CSV column** by its label (any case, any order). A row still marked `TO FILL` is not mapped: if the job needs it, stop and ask the person. Never guess a field.
+Each DETONATE field comes from GoHighLevel as below (Otherside's keys and corrections, 2026-10-07; VIP rule, 2026-10-09). An intake from GoHighLevel, and the GHL check, read the **key**. GoHighLevel lists a contact's custom fields by id: first read the location's custom fields (read only) to find the id for each key, then read the contact's value by that id (how GoHighLevel's contact data works, not part of Otherside's table). A CSV load matches the **CSV column** by its label (any case, any order). A row still marked `TO FILL` is not mapped: if the job needs it, stop and ask the person. Never guess a field.
 
 | DETONATE field | What it is | GoHighLevel (intake and GHL check) | CSV column |
 |---|---|---|---|
@@ -34,11 +34,11 @@ Each DETONATE field comes from GoHighLevel as below (King's keys and corrections
 | `cohort_number` | REQUIRED. The cohort he is filed under. It must equal the DETONATE cohort's number: find that cohort with `list_cohorts` and its `number` filter, never by its name | `contact.detonate_cohort_number` (Detonate Cohort Number) | Detonate Cohort or Detonate Cohort Number. A file with both columns: stop and ask the person which one to use |
 | `tier` | `vip` or `base` | the **tag** `detonate vip purchase`: tagged = `vip`, not tagged = `base`. Not a custom field | VIP/Base: VIP becomes `vip`, Base becomes `base` |
 | `telegram_chat_id` | His Telegram chat id, 5 to 15 digits | `contact.telegram_chat_id` | Telegram Chat ID |
-| `timezone` | His IANA zone, for example `America/New_York`. Blank, or not an IANA zone: ask the person, never guess. Send `timezone_source: crm` when it came from GoHighLevel, `csv` from a file, `asked` when the person gave it | `contact.detonate_timezone_v2` (the dropdown, replacing the old text field `contact.detonate_timezone`). Never read the old field unless King confirms it | Detonate Timezone |
-| `catalyst_cohort` | OPTIONAL. His Catalyst call slot, `odd` or `even`. Blank: leave it out, and DETONATE takes it from the cohort number (odd number = odd, even = even) | not read until King gives its key (`TO FILL`): leave it out, and DETONATE takes the slot from the cohort number | Catalyst Cohort |
+| `timezone` | His IANA zone, for example `America/New_York`. Blank, or not an IANA zone: ask the person, never guess. Send `timezone_source: crm` when it came from GoHighLevel, `csv` from a file, `asked` when the person gave it | `contact.detonate_timezone_v2` (the dropdown, replacing the old text field `contact.detonate_timezone`). Never read the old field unless Otherside confirms it | Detonate Timezone |
+| `catalyst_cohort` | OPTIONAL. His Catalyst call slot, `odd` or `even`. Blank: leave it out, and DETONATE takes it from the cohort number (odd number = odd, even = even) | not read until Otherside gives its key (`TO FILL`): leave it out, and DETONATE takes the slot from the cohort number | Catalyst Cohort |
 | GHL check | The contacts the GHL check counts for a cohort: every contact whose `contact.detonate_cohort_number` equals that cohort's number. Not a tag | `contact.detonate_cohort_number` | not used |
 
-**This load and the next (King, 2026-10-07).** The 18 October cohort comes from the GSheet, downloaded as a CSV and loaded with `/detonate:csv`. From the next cohort on, the time zone comes from the GoHighLevel dropdown `contact.detonate_timezone_v2`.
+**This load and the next (Otherside, 2026-10-07).** The 18 October cohort comes from the GSheet, downloaded as a CSV and loaded with `/detonate:csv`. From the next cohort on, the time zone comes from the GoHighLevel dropdown `contact.detonate_timezone_v2`.
 
 Map nothing else, and require nothing else: not TG Active, WAIVER SIGNED, Added to The app, Telegram Unique Code, Telegram Unique Link, Telegram Username, Cohort Date, Connected At or Created At.
 
