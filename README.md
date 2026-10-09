@@ -1,6 +1,6 @@
 # DETONATE for Claude Code
 
-The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, and run the daily sweep. Claude acts as you, signed in with your own DETONATE admin login.
+The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, run the daily sweep, and correct a man's mask or core block. Claude acts as you, signed in with your own DETONATE admin login.
 
 This repo holds no passwords, keys or tokens. On its own it can do nothing: only an Otherside admin who has been switched on for the connector can sign in.
 
@@ -32,6 +32,7 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:csv` | Loads men from a GoHighLevel CSV export you saved in the folder you opened Claude in |
 | `/detonate:reconcile` | Checks a cohort in DETONATE against GoHighLevel. Changes nothing |
 | `/detonate:sweep` | The daily check: who hasn't set up, who's gone quiet, new REBORN picks |
+| `/detonate:correct` | Fixes a man's mask or core block when he saved the wrong one. Shows the change and waits for your yes |
 
 Claude asks before each DETONATE tool the first time. Reading is safe to allow for the session. Answer every change each time.
 

@@ -8,7 +8,7 @@
     {
       "name": "detonate",
       "source": "./plugins/detonate",
-      "description": "Bring men into DETONATE from GoHighLevel or a CSV, check cohorts, and run the daily sweep. Invitations wait for Approve."
+      "description": "Bring men into DETONATE from GoHighLevel or a CSV, check cohorts, run the daily sweep, and correct a man's mask or core block. Invitations wait for Approve."
     }
   ]
 }
