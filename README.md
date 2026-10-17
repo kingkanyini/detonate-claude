@@ -4,6 +4,8 @@ The DETONATE connector for Otherside admins. It lets Claude bring men into DETON
 
 This repo holds no passwords, keys or tokens. On its own it can do nothing: only an Otherside admin who has been switched on for the connector can sign in.
 
+The full guide, including how to connect DETONATE on claude.ai and run a scheduled routine while your computer is off: https://detonate-connector-mcp.vercel.app
+
 ## Set it up (once)
 
 You need Claude Code and git.
@@ -48,4 +50,4 @@ Claude asks before each DETONATE tool the first time. Reading is safe to allow f
 
 ## Updates
 
-If Claude says "This plugin is out of date", type `/plugin marketplace update detonate-claude`, then `/reload-plugins`.
+Claude reads DETONATE's own rules and field map at the start of every session, so a change to them reaches you without a plugin update. If Claude says "This plugin is out of date", type `/plugin marketplace update detonate-claude`, then `/reload-plugins`.
