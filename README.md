@@ -1,6 +1,6 @@
 # DETONATE for Claude Code
 
-The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, run the daily sweep, and correct a man's mask or core block. Claude acts as you, signed in with your own DETONATE admin login.
+The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, run the daily sweep, correct a man's mask or core block, and bring back a man who was cut. Claude acts as you, signed in with your own DETONATE admin login.
 
 This repo holds no passwords, keys or tokens. On its own it can do nothing: only an Otherside admin who has been switched on for the connector can sign in.
 
@@ -35,6 +35,7 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:reconcile` | Checks a cohort in DETONATE against GoHighLevel. Changes nothing |
 | `/detonate:sweep` | The daily check: who hasn't set up, who's gone quiet, new REBORN picks |
 | `/detonate:correct` | Fixes a man's mask or core block when he saved the wrong one. Shows the change and waits for your yes |
+| `/detonate:reinstate` | Brings back a man who was cut at his strikes, when it's warranted. Shows what changes and the note he gets, and waits for your yes |
 
 Claude asks before each DETONATE tool the first time. Reading is safe to allow for the session. Answer every change each time.
 
@@ -42,10 +43,10 @@ Claude asks before each DETONATE tool the first time. Reading is safe to allow f
 
 - Claude checks it is on DETONATE REAL and signed in as you before anything else.
 - Nothing changes until Claude has shown you what it will do and you've said yes. Risky changes need a second yes.
-- Accounts are made with invitations **held**. Nobody gets an email until someone presses **Approve** on the DETONATE page. At most 100 invitations go out an hour.
+- Accounts are made with invitations **held**, and nobody gets an email until someone presses **Approve** on the DETONATE page, unless a keyholder has switched on send-now for you. At most 100 invitations go out an hour.
 - One email per man per 15 minutes, unless you say yes twice.
 - A man already in DETONATE is never made twice.
-- GoHighLevel is read only for Claude.
+- Claude changes GoHighLevel only after showing you the change and getting your yes.
 - If Claude or the connector is down, the DETONATE admin pages work as always.
 
 ## Updates

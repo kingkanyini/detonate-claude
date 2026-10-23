@@ -1,8 +1,8 @@
 {
   "name": "detonate",
   "displayName": "DETONATE",
-  "version": "1.3.0",
-  "description": "Connects Claude Code to DETONATE (detonate.me) as the signed-in Otherside admin, with GoHighLevel read only.",
+  "version": "1.4.0",
+  "description": "Connects Claude Code to DETONATE (detonate.me) as the signed-in Otherside admin. GoHighLevel changes only after your yes.",
   "author": {
     "name": "Kanyini"
   }
