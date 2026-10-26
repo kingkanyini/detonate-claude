@@ -1,6 +1,6 @@
 ---
 name: rules
-description: The house rules and GoHighLevel field map for DETONATE REAL, served by DETONATE itself. Load this BEFORE any call to a DETONATE (detonate-real) or GoHighLevel (leadconnector) tool, and before running /detonate:intake, /detonate:csv, /detonate:reconcile, /detonate:sweep or /detonate:correct. Follow it for the rest of the session.
+description: The house rules and GoHighLevel field map for DETONATE REAL, served by DETONATE itself. Load this BEFORE any call to a DETONATE (detonate-real) or GoHighLevel (leadconnector) tool, and before running /detonate:intake, /detonate:csv, /detonate:reconcile, /detonate:sweep, /detonate:correct, /detonate:reinstate or /detonate:clear. Follow it for the rest of the session.
 ---
 
 # DETONATE REAL (production): house rules
