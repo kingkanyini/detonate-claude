@@ -1,6 +1,6 @@
 # DETONATE for Claude Code
 
-The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, run the daily sweep, correct a man's mask or core block, bring back a man who was cut, and clear the days a man wants to redo. Claude acts as you, signed in with your own DETONATE admin login.
+The DETONATE connector for Otherside admins. It lets Claude bring men into DETONATE from GoHighLevel or a CSV, check a cohort against GoHighLevel, run the daily sweep, correct a man's mask or core block, bring back a man who was cut, clear the days a man wants to redo, and move a man's time zone. Claude acts as you, signed in with your own DETONATE admin login.
 
 This repo holds no passwords, keys or tokens. On its own it can do nothing: only an Otherside admin who has been switched on for the connector can sign in.
 
@@ -37,6 +37,7 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:correct` | Fixes a man's mask or core block when he saved the wrong one. Shows the change and waits for your yes |
 | `/detonate:reinstate` | Brings back a man who was cut at his strikes, when it's warranted. Shows what changes and the note he gets, and waits for your yes |
 | `/detonate:clear` | Clears a man's saved answers for the days he wants to redo, after a cohort move or on his ask. Shows each day and what clearing it may knock on, and waits for your yes |
+| `/detonate:timezone` | Moves a man's time zone when he has moved or it was set wrong. Runs at once, or books it for the next allowed time, after your yes |
 
 Claude asks before each DETONATE tool the first time. Reading is safe to allow for the session. Answer every change each time.
 

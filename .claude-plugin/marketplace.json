@@ -8,7 +8,7 @@
     {
       "name": "detonate",
       "source": "./plugins/detonate",
-      "description": "Bring men into DETONATE from GoHighLevel or a CSV, check cohorts, run the daily sweep, correct a man's mask or core block, bring back a man who was cut, and clear the days a man wants to redo. Invitations go out at once if send-now is on for you, otherwise they wait for Approve."
+      "description": "Bring men into DETONATE from GoHighLevel or a CSV, check cohorts, run the daily sweep, correct a man's mask or core block, bring back a man who was cut, clear the days a man wants to redo, and move a man's time zone. Invitations go out at once if send-now is on for you, otherwise they wait for Approve."
     }
   ]
 }
