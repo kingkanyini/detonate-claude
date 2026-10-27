@@ -44,7 +44,7 @@ Claude asks before each DETONATE tool the first time. Reading is safe to allow f
 
 - Claude checks it is on DETONATE REAL and signed in as you before anything else.
 - Nothing changes until Claude has shown you what it will do and you've said yes. Risky changes need a second yes.
-- Accounts are made with invitations **held**, and nobody gets an email until someone presses **Approve** on the DETONATE page, unless a keyholder has switched on send-now for you. At most 100 invitations go out an hour.
+- If a keyholder has switched on send-now for you, the invitations go out as soon as the accounts are made. Otherwise they are **held**, and nobody gets an email until someone presses **Approve** on the DETONATE page. Your switch decides this, not anything you type to Claude. At most 100 invitations go out an hour.
 - One email per man per 15 minutes, unless you say yes twice.
 - A man already in DETONATE is never made twice.
 - Claude changes GoHighLevel only after showing you the change and getting your yes.

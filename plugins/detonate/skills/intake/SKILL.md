@@ -1,6 +1,6 @@
 ---
 name: intake
-description: Bring a cohort's men from GoHighLevel into DETONATE REAL as accounts with invitations held for Approve. Use when the person asks to bring men in, run an intake, or add a cohort's men.
+description: Bring a cohort's men from GoHighLevel into DETONATE REAL as accounts; the invitations are sent at once if the admin is switched on for send-now, otherwise held for Approve. Use when the person asks to bring men in, run an intake, or add a cohort's men.
 ---
 
 # DETONATE intake (REAL)

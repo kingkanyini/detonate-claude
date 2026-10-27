@@ -1,6 +1,6 @@
 ---
 name: csv
-description: Load men into DETONATE REAL from a CSV export (the GoHighLevel export) the person put in the folder Claude Code was started in. One run per cohort number, accounts made with invitations held for Approve. Use when the person drops a CSV in the folder or asks to load men from a file.
+description: Load men into DETONATE REAL from a CSV export (the GoHighLevel export) the person put in the folder Claude Code was started in. One run per cohort number; the invitations are sent at once if the admin is switched on for send-now, otherwise held for Approve. Use when the person drops a CSV in the folder or asks to load men from a file.
 ---
 
 # DETONATE load from a CSV (REAL)
