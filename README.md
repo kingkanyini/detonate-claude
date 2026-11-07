@@ -38,6 +38,9 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:reinstate` | Brings back a man who was cut at his strikes, when it's warranted. Shows what changes and the note he gets, and waits for your yes |
 | `/detonate:clear` | Clears a man's saved answers for the days he wants to redo, after a cohort move or on his ask. Shows each day and what clearing it may knock on, and waits for your yes |
 | `/detonate:timezone` | Moves a man's time zone when he has moved or it was set wrong. Runs at once, or books it for the next allowed time, after your yes |
+| `/detonate:strike` | Undoes one of a man's strikes, by its day. Never spends his free pass. Shows his strikes before and after and what his phone hears, and waits for your yes |
+| `/detonate:pause` | Pauses or resumes a man's clock. He falls a day behind his cohort for every midnight he is paused, and nothing resumes him by itself. Waits for your yes |
+| `/detonate:remove` | Removes a man (a refund that was given, or a removal that is due): the removal cohort, then deactivate. All his data stays. Waits for your yes at each step |
 
 Claude asks before each DETONATE tool the first time. Reading is safe to allow for the session. Answer every change each time.
 
