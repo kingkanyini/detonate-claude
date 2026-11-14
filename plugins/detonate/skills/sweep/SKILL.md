@@ -1,6 +1,6 @@
 ---
 name: sweep
-description: The daily check on DETONATE REAL cohorts. Men not set up 24 hours after their invitation, men inactive 2 days or more, men whose Telegram sends are failing, new REBORN picks, then the GoHighLevel check. Proposes resends and waits for a yes.
+description: The daily check on DETONATE REAL cohorts. Men not set up 24 hours after their invitation, men inactive 2 days or more, men whose Telegram sends are failing, each man's missing Catalyst Zoom link filled from GoHighLevel, new REBORN picks, then the GoHighLevel check. Proposes resends and waits for a yes.
 ---
 
 # DETONATE daily sweep (REAL)

@@ -33,7 +33,7 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:intake` | Brings a cohort's men in from GoHighLevel |
 | `/detonate:csv` | Loads men from a GoHighLevel CSV export you saved in the folder you opened Claude in |
 | `/detonate:reconcile` | Checks a cohort in DETONATE against GoHighLevel. Changes nothing |
-| `/detonate:sweep` | The daily check: who hasn't set up, who's gone quiet, whose Telegram is failing, new REBORN picks |
+| `/detonate:sweep` | The daily check: who hasn't set up, who's gone quiet, whose Telegram is failing, missing Zoom links filled, new REBORN picks |
 | `/detonate:correct` | Fixes a man's mask or core block when he saved the wrong one. Shows the change and waits for your yes |
 | `/detonate:reinstate` | Brings back a man who was cut at his strikes, when it's warranted. Shows what changes and the note he gets, and waits for your yes |
 | `/detonate:clear` | Clears a man's saved answers for the days he wants to redo, after a cohort move or on his ask. Shows each day and what clearing it may knock on, and waits for your yes |
