@@ -41,6 +41,7 @@ Open Claude Code in any folder and type one of these:
 | `/detonate:strike` | Undoes one of a man's strikes, by its day. Never spends his free pass. Shows his strikes before and after and what his phone hears, and waits for your yes |
 | `/detonate:pause` | Pauses or resumes a man's clock. He falls a day behind his cohort for every midnight he is paused, and nothing resumes him by itself. Waits for your yes |
 | `/detonate:remove` | Removes a man (a refund that was given, or a removal that is due): the removal cohort, then deactivate. All his data stays. Waits for your yes at each step |
+| `/detonate:mark` | Marks a stuck step done for a man who did the work and whose app would not record it (a Mark complete or a tap that would not take). Never his written answers, a photo, the anchor or the fork. Shows the evidence first and waits for your yes |
 
 Claude asks before each DETONATE tool the first time. Reading is safe to allow for the session. Answer every change each time.
 
